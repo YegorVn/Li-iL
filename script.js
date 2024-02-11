@@ -100,7 +100,6 @@ const sortData = (
   listProps,
   iter = 0,
   head = null,
-  startId = 0
 ) => {
   const createNode = (nodeProps, parent) => {
     const node = document.createElement("div");
