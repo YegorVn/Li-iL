@@ -146,7 +146,6 @@ const sortData = (
       return a.sorthead - b.sorthead;
     })
     .forEach((element) => {
-      if (element.head === head) {
         sortData(
           data,
           createNode(element, parent),
@@ -154,7 +153,6 @@ const sortData = (
           iter + 1,
           element.id
         );
-      }
     });
 };
 
